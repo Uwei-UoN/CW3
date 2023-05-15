@@ -1,45 +1,36 @@
-@article{Beck2016Visual,
-  abstract = {Bibiographic data such as collections of scientific articles and citation networks have been studied extensively in information visualization and visual analytics research. Powerful systems have been built to support various types of bibliographic analysis, but they require some training and cannot be used to disseminate the insights gained. In contrast, we focused on developing a more accessible visual analytics system, called SurVis, that is ready to disseminate a carefully surveyed literature collection. The authors of a survey may use our Web-based system to structure and analyze their literature database. Later, readers of the survey can obtain an overview, quickly retrieve specific publications, and reproduce or extend the original bibliographic analysis. Our system employs a set of selectors that enable users to filter and browse the literature collection as well as to control interactive visualizations. The versatile selector concept includes selectors for textual search, filtering by keywords and meta-information, selection and clustering of similar publications, and following citation links. Agreement to the selector is represented by word-sized sparkline visualizations seamlessly integrated into the user interface. Based on an analysis of the analytical reasoning process, we derived requirements for the system. We developed the system in a formative way involving other researchers writing literature surveys. A questionnaire study with 14 visual analytics experts confirms that SurVis meets the initially formulated requirements.},
-  author = {Beck, Fabian and Koch, Sebastian and Weiskopf, Daniel},
-  doi = {10.1109/TVCG.2015.2467757},
-  journal = {IEEE Transactions on Visualization and Computer Graphics},
-  keywords = {type:system, visual_analytics, sparklines, information_retrieval, clustering, literature_browser},
-  number = {01},
-  publisher = {IEEE},
-  volume = {22},
-  series = {TVCG},
-  title = {Visual Analysis and Dissemination of Scientific Literature Collections with {SurVis}},
-  url = {http://www.visus.uni-stuttgart.de/uploads/tx_vispublications/vast15-survis.pdf},
-  year = {2016}
+
+@inproceedings{colpaert2017public,
+  title={Public transit route planning through lightweight linked data interfaces},
+  author={Colpaert, Pieter and Verborgh, Ruben and Mannens, Erik},
+  booktitle={Web Engineering: 17th International Conference, ICWE 2017, Rome, Italy, June 5-8, 2017, Proceedings 17},
+  pages={403--411},
+  year={2017},
+  organization={Springer},
+  abstract = {While some public transit data publishers only provide a data dump -- which only few reusers can afford to integrate within their applications -- others provide a use case limiting origin-destination route planning api. The Linked Connections framework instead introduces a hypermedia api, over which the extendable base route planning algorithm ``Connections Scan Algorithm'' can be implemented. We compare the cpu usage and query execution time of a traditional server-side route planner with the cpu time and query execution time of a Linked Connections interface by evaluating query mixes with increasing load. We found that, at the expense of a higher bandwidth consumption, more queries can be answered using the same hardware with the Linked Connections server interface than with an origin-destination api, thanks to an average cache hit rate of 78{\%}. The findings from this research show a cost-efficient way of publishing transport data that can bring federated public transit route planning at the fingertips of anyone.},
+  url = {https://doi.org/10.1007/978-3-319-60131-1_26}
 }
 
-@article{10.1007/978-3-319-60131-1_26,
-author="Colpaert, Pieter
-and Verborgh, Ruben
-and Mannens, Erik",
-editor="Cabot, Jordi
-and De Virgilio, Roberto
-and Torlone, Riccardo",
-title="Public Transit Route Planning Through Lightweight Linked Data Interfaces",
-booktitle="Web Engineering",
-year="2017",
-publisher="Springer International Publishing",
-address="Cham",
-pages="403--411",
-abstract="While some public transit data publishers only provide a data dump -- which only few reusers can afford to integrate within their applications -- others provide a use case limiting origin-destination route planning api. The Linked Connections framework instead introduces a hypermedia api, over which the extendable base route planning algorithm ``Connections Scan Algorithm'' can be implemented. We compare the cpu usage and query execution time of a traditional server-side route planner with the cpu time and query execution time of a Linked Connections interface by evaluating query mixes with increasing load. We found that, at the expense of a higher bandwidth consumption, more queries can be answered using the same hardware with the Linked Connections server interface than with an origin-destination api, thanks to an average cache hit rate of 78{\%}. The findings from this research show a cost-efficient way of publishing transport data that can bring federated public transit route planning at the fingertips of anyone.",
-isbn="978-3-319-60131-1"
-}
-
-@inproceedings{lehoux2020faster,
-  title={Faster Preprocessing for the Trip-Based Public Transit Routing Algorithm},
-  author={Lehoux, Vassilissa and Loiodice, Christelle},
-  booktitle={20th Symposium on Algorithmic Approaches for Transportation Modelling, Optimization, and Systems (ATMOS 2020)},
-  year={2020},
-  organization={Schloss Dagstuhl-Leibniz-Zentrum f{\"u}r Informatik},
-  abstract={}
+@InProceedings{lehoux_et_al:OASIcs:2020:13139,
+  abstract = {We propose an additional preprocessing step for the Trip-Based Public Transit Routing algorithm, an exact state-of-the art algorithm for bi-criteria min cost path problems in public transit networks. This additional step reduces significantly the preprocessing time, while preserving the correctness and the computation times of the queries. We test our approach on three large scale networks and show that the improved preprocessing is compatible with frequent real-time updates, even on the larger data set. The experiments also indicate that it is possible, if preprocessing time is an issue, to use the proposed preprocessing step on its own to obtain already a significant reduction of the query times compared to the no pruning scenario.},
+  author =	{Vassilissa Lehoux and Christelle Loiodice},
+  title =	{{Faster Preprocessing for the Trip-Based Public Transit Routing Algorithm}},
+  booktitle =	{20th Symposium on Algorithmic Approaches for Transportation Modelling, Optimization, and Systems (ATMOS 2020)},
+  pages =	{3:1--3:12},
+  ISBN =	{978-3-95977-170-2},
+  ISSN =	{2190-6807},
+  year = {2020},
+  volume =	{85},
+  editor =	{Dennis Huisman and Christos D. Zaroliagis},
+  publisher =	{Schloss Dagstuhl--Leibniz-Zentrum f{\"u}r Informatik},
+  address =	{Dagstuhl, Germany},
+  URL =		{https://drops.dagstuhl.de/opus/volltexte/2020/13139},
+  URN =		{urn:nbn:de:0030-drops-131395},
+  doi =		{10.4230/OASIcs.ATMOS.2020.3},
+  annote =	{Keywords: Public transit, Route planning, Algorithms, Preprocessing}
 }
 
 @inbook{inbook,
+abstract = {The increase in life expectancy is undoubtedly a social achievement. If we want an inclusive and integrating society, the inclusion of the age perspective is key when planning the city and its services. Accordingly, this is reflected in the Sustainable Development Goals (SDGs), especially in SDG 11.2, which aims to provide and expand access to public transport with special attention to the needs of the elderly. In general, the data required to evaluate public transportation is managed by the bus operators and/or other entities that decide whether (or not) to share it. This hardnesses the independent evaluation of the bus service by third-party stakeholders. Thus, this article aims to objectively assess the bus network’s quality of service, relying exclusively on available socio-demographic and mobility open data, highlighting the elderly as target users in the city of Melilla (Spain). The open data available allowed the computation of indicators, such as journey times estimation or bus stop distribution to evaluate the universality in access to public transport. However, it has been noted that the lack of available data prevents the calculation of other age-friendly indicators. The main result of this research is that bus service provides a considerable reduction in journey times for the elderly than for non-elderly.},
 author = {Toutouh, Jamal and Lebrusán Murillo, Irene and Cintrano, Christian},
 year = {2022},
 month = {01},
@@ -48,3 +39,132 @@ title = {Using Open Data to Analyze Public Bus Service from an Age Perspective: 
 isbn = {978-3-030-96752-9},
 doi = {10.1007/978-3-030-96753-6_16}
 }
+
+
+@article{https://doi.org/10.1049/iet-its.2014.0192,
+author = {Syrjärinne, Paula and Nummenmaa, Jyrki and Thanisch, Peter and Kerminen, Riitta and Hakulinen, Esa},
+title = {Analysing traffic fluency from bus data},
+journal = {IET Intelligent Transport Systems},
+volume = {9},
+number = {6},
+pages = {566-572},
+keywords = {public transport, storage management, data mining, road traffic, delays, traffic engineering computing, bus stops, traffic signal, bus line throughout, regular pattern detection, database mining, Tampere, city level delay distribution analysis, urban traffic flow, stored public transportation data facilitates},
+doi = {https://doi.org/10.1049/iet-its.2014.0192},
+url = {https://ietresearch.onlinelibrary.wiley.com/doi/abs/10.1049/iet-its.2014.0192},
+eprint = {https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/iet-its.2014.0192},
+abstract = {The use of stored public transportation data facilitates the identification of potential issues with urban traffic flow. Focusing on buses, the authors proceed from a city-level delay distribution analysis to a detailed understanding of the factors that cause the delays on an example bus line. First, a database of bus data in Tampere was mined to detect any regular patterns in the distribution of delays in time, location or according to bus line throughout the city. The results allow the authors to focus on those areas and lines which are most prone to delays. In a case study, they illustrate that the most important reasons for tardy journeys are the long waiting times at traffic signals and bus stops, rather than slow driving speeds. The results are then further deepened to show spatially on a map which bus stops and intersections tend to be the ones where the time variances are high. The same methods can be applied to any other city for which the same kind of data are available.},
+year = {2015}
+}
+
+
+@article{doi:10.1080/15472450802644439,
+author = { Nobuhiro   Uno  and  Fumitaka   Kurauchi  and  Hiroshi   Tamura  and  Yasunori   Iida },
+title = {Using Bus Probe Data for Analysis of Travel Time Variability},
+journal = {Journal of Intelligent Transportation Systems},
+volume = {13},
+number = {1},
+pages = {2-15},
+year  = {2009},
+publisher = {Taylor & Francis},
+doi = {10.1080/15472450802644439},
+
+URL = { 
+    
+        https://doi.org/10.1080/15472450802644439
+    
+    
+
+},
+eprint = { 
+    
+        https://doi.org/10.1080/15472450802644439
+    
+    
+
+}
+,
+    abstract = { The rapid progress of information technology (IT) may provide us with new insights into understanding traffic phenomena, and could help mitigate traffic problems. One of the key applications of IT to traffic and transport analysis is the identification of the location of moving objects using the Global Positioning System (GPS). It is expected that detailed traffic analysis could be carried out using these data. In this article, we first summarize the various applications of probe data in transport analysis. GPS data are merely a sequence of locations, and further data transformation such as map-matching, data-reduction, processing, and reporting is needed to use them effectively. We then discuss the application of bus probe data to evaluating travel time variability and the level of service (LOS) of roads. A methodology for evaluating the road network from the viewpoint of travel time stability and reliability using bus probe data is proposed. Travel time distributions of arbitrary routes are estimated by statistically summing up directly observed multiple travel time distributions. Based on the development of methodologies to estimate travel time distributions of arbitrary routes covered by the bus probe survey, this study proposes an approach to evaluate the LOS of road networks based on the concept of travel time reliability. }
+}
+
+
+@article{HARSHA20203283,
+title = {Analysis of Bus Travel Time Variability using Automatic Vehicle Location Data},
+journal = {Transportation Research Procedia},
+volume = {48},
+pages = {3283-3298},
+year = {2020},
+note = {Recent Advances and Emerging Issues in Transport Research – An Editorial Note for the Selected Proceedings of WCTR 2019 Mumbai},
+issn = {2352-1465},
+doi = {https://doi.org/10.1016/j.trpro.2020.08.123},
+url = {https://www.sciencedirect.com/science/article/pii/S2352146520305391},
+author = {M.M. Harsha and Raviraj H Mulangi and H.D. Dinesh Kumar},
+keywords = {Transit reliability, Travel time variability, Generalised Extreme Value (GEV) Distribution, Intelligent Transport System (ITS), Automatic Vehicle Location (AVL)},
+abstract = {Transit service reliability is a measure of the quality of service offered by the public transit systems. The nature and pattern of the travel time variability can be described by the travel time distribution and it is the prerequisite in the reliability analysis. Many research works have been carried out to understand the travel time distribution, but there are very few studies on the heterogeneous traffic in developing countries like India. In this study, an attempt has been made to analyze the travel time distribution at different spatial and temporal aggregation scales using Automatic Vehicle Location (AVL) data of public bus route in Mysore city. The results suggest that, Generalised extreme value (GEV) distribution is the better fit for travel times at both route and segment levels and the performance of the Generalised extreme value (GEV) distribution is comparatively better in both temporal and spatial aggregation compared to other distributions. This distribution can be utilized by the transit operators in the operation and performance evaluation of transit systems.}
+}
+
+@article{SHI2021100342,
+title = {Evaluation model of bus routes optimization scheme based on multi-source bus data},
+journal = {Transportation Research Interdisciplinary Perspectives},
+volume = {10},
+pages = {100342},
+year = {2021},
+issn = {2590-1982},
+doi = {https://doi.org/10.1016/j.trip.2021.100342},
+url = {https://www.sciencedirect.com/science/article/pii/S259019822100049X},
+author = {Qingshuai Shi and Ke Zhang and Jiancheng Weng and Yuqiang Dong and Siyong Ma and Mengyuan Zhang},
+keywords = {Bus route optimization, Bus big data, Indicator system, Analytic hierarchy process, Evaluation method},
+abstract = {An effective public transport network is helpful to improve the quality of public transport service and save travel time of travelers. As an important part of urban transportation, the continuous optimization of bus network is necessary to improve the service level of bus transit. Aiming to evaluate the rationality and feasibility of bus optimization scheme, the paper discussed the factors about the bus service supply and demand, including the bus operation, passenger flow and service level. Firstly, based on multi-source data including bus smart card transaction data, bus location data and static attribute data of bus network, the evaluation indicator system of bus routes optimization effect is proposed. Secondly, a comprehensive evaluation model of bus route optimization is established by applying the analytic hierarchy process (AHP). This paper systematically analyzes the various levels bus optimization scheme including bus route level, station level, bus scheduling scheme, and constructs an evaluation model covering the single bus route optimization and multi-routes combination optimization. The quantitative grading evaluation method of bus routes optimization proposed in this paper can scientifically classify the performance of bus route optimization and provide valuable reference for the decision-making of bus route adjustment. Eventually, this study also selects Beijing bus routes optimization scheme for empirical analysis.}
+}
+
+@INPROCEEDINGS{9179382,
+  author={Larsen, Gustavo Henrique and Yoshioka, Leopoldo Rideki and Marte, Claudio Luiz},
+  booktitle={2020 International Conference on Electrical, Communication, and Computer Engineering (ICECCE)}, 
+  title={Bus Travel Times Prediction based on Real-Time Traffic Data Forecast using Artificial Neural Networks}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={1-6},
+  abstract={The concept of Smart Cities is a trend in large cities. Intelligent Transportation Systems) plays an essential role in providing accurate information on bus travel times. It improves the planning of passengers and the agency responsible for public transport. The purpose of this paper is to create a new methodology to predict the travel times of buses based on open data collected in real-time. We constructed a dataset from Sao Paulo City bus fleet location data, real-time traffic data, and traffic forecast from Google Maps. In the following, we trained an Artificial Neural Network (ANN). In the ANN training process, we alternated the dataset and its hyperparameters to find out the combination that provides the lower prediction error. The mean absolute percentage error found was 8.97%, using all data sets except weather data. We showed that our method could provide an accurate bus travel time prediction from web data collected in real-time.},
+  keywords={},
+  doi={10.1109/ICECCE49384.2020.9179382},
+  ISSN={},
+  month={June},}
+
+
+@inproceedings{10.1145/3416010.3423239,
+author = {Celes, Clayson and Boukerche, Azzedine and Loureiro, Antonio A. F.},
+title = {Calibrating Bus Mobility Data for Bus-Based Urban Vehicular Networks},
+year = {2020},
+isbn = {9781450381178},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3416010.3423239},
+doi = {10.1145/3416010.3423239},
+abstract = {In addition to being one of the primary means of transport, with the advent of sensing and communication technologies, buses belonging to the public transport system have gained a new role in urban centers. They have been applied as a powerful vehicular network that covers an entire city, called BUS-VANET. For the design and validation of solutions for this type of network, the nodes' mobility information is essential. For instance, data from the buses' GPS trajectories can be used to understand the dynamics of encounters between them. This knowledge can be applied to design applications and services for different users, besides providing the necessary information to properly manage this important public transport solution. However, real-world trajectories have several imperfections. In particular, GPS trajectories are heterogeneous, asynchronous, and typically contain a low sample rate. These characteristics impose certain limitations on the use of this dataset in the design of solutions for a BUS-VANET. In this work, we propose a hybrid method of calibrating trajectories based on historical information of trajectories and a road network to overcome these problems. We showed that our method surpasses the state-of-the-art techniques in several perspectives through evaluation with realistic data.},
+booktitle = {Proceedings of the 23rd International ACM Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems},
+pages = {207–214},
+numpages = {8},
+keywords = {trajectory analysis, bus-vanet, network topology, mobility traces},
+location = {Alicante, Spain},
+series = {MSWiM '20}
+}
+
+
+@article { ,
+	title = {What Smart Campuses Can Teach Us about Smart Cities: User Experiences and Open Data},
+	abstract = {Universities, like cities, have embraced novel technologies and data based solutions to improve their campuses with ‘smart’ becoming a welcomed concept. Campuses in many ways are small-scale cities. They increasingly seek to address similar challenges and to deliver improved experiences to their users. How can data be used in making this vision a reality? What can we learn from smart campuses that can be scaled up to smart cities? A short research study was conducted over a three-month period at a public university in the United Kingdom, employing stakeholder interviews and user surveys, which aimed to gain insight into these questions. Based on the study, the authors suggest that making data publicly available could bring many benefits to different groups of stakeholders and campus users. These benefits come with risks and challenges, such as data privacy and protection and infrastructure hurdles. However, if these challenges can be overcome, then open data could contribute significantly to improving campuses and user experiences, and potentially set an example for smart cities.},
+	doi = {10.3390/info9100251},
+	eissn = {2078-2489},
+	issue = {10},
+	pages = {251-264},
+	publicationstatus = {Published},
+	publisher = {MDPI},
+	url = {https://nottingham-repository.worktribe.com/output/1306068},
+	volume = {9},
+	keyword = {Smart City, Smart Campus, Open-Data},
+	year = {2018},
+	author = {Vasileva, Roza and Rodrigues, Lucelia and Hughes, Nancy and Greenhalgh, Chris and Goulden, Murray and Tennison, Jeni}
+}
+
+
+
